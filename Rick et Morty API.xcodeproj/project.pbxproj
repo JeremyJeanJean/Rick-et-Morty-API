@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		3A50FE43221DAB400025C8E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FE42221DAB400025C8E0 /* AppDelegate.swift */; };
-		3A50FE45221DAB400025C8E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FE44221DAB400025C8E0 /* ViewController.swift */; };
+		3A50FE45221DAB400025C8E0 /* CharactersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FE44221DAB400025C8E0 /* CharactersController.swift */; };
 		3A50FE48221DAB400025C8E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A50FE46221DAB400025C8E0 /* Main.storyboard */; };
 		3A50FE4A221DAB420025C8E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A50FE49221DAB420025C8E0 /* Assets.xcassets */; };
 		3A50FE4D221DAB420025C8E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A50FE4B221DAB420025C8E0 /* LaunchScreen.storyboard */; };
+		3A50FE56221DAD460025C8E0 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FE55221DAD460025C8E0 /* NavController.swift */; };
+		3A50FE59221DB1A50025C8E0 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FE58221DB1A50025C8E0 /* APIHelper.swift */; };
+		3A50FE5B221DB4140025C8E0 /* APIResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FE5A221DB4140025C8E0 /* APIResult.swift */; };
+		3A50FE5E221DBE4B0025C8E0 /* PersoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FE5D221DBE4B0025C8E0 /* PersoCell.swift */; };
+		3A50FE60221DBF2F0025C8E0 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FE5F221DBF2F0025C8E0 /* extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A50FE3F221DAB400025C8E0 /* Rick et Morty API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick et Morty API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A50FE42221DAB400025C8E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A50FE44221DAB400025C8E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A50FE44221DAB400025C8E0 /* CharactersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersController.swift; sourceTree = "<group>"; };
 		3A50FE47221DAB400025C8E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A50FE49221DAB420025C8E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A50FE4C221DAB420025C8E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A50FE4E221DAB420025C8E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A50FE55221DAD460025C8E0 /* NavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
+		3A50FE58221DB1A50025C8E0 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		3A50FE5A221DB4140025C8E0 /* APIResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResult.swift; sourceTree = "<group>"; };
+		3A50FE5D221DBE4B0025C8E0 /* PersoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersoCell.swift; sourceTree = "<group>"; };
+		3A50FE5F221DBF2F0025C8E0 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,43 @@
 		3A50FE41221DAB400025C8E0 /* Rick et Morty API */ = {
 			isa = PBXGroup;
 			children = (
+				3A50FE5C221DBE310025C8E0 /* View */,
+				3A50FE57221DB1950025C8E0 /* Modeles */,
+				3A50FE54221DAD210025C8E0 /* Controller */,
 				3A50FE42221DAB400025C8E0 /* AppDelegate.swift */,
-				3A50FE44221DAB400025C8E0 /* ViewController.swift */,
 				3A50FE46221DAB400025C8E0 /* Main.storyboard */,
 				3A50FE49221DAB420025C8E0 /* Assets.xcassets */,
 				3A50FE4B221DAB420025C8E0 /* LaunchScreen.storyboard */,
 				3A50FE4E221DAB420025C8E0 /* Info.plist */,
 			);
 			path = "Rick et Morty API";
+			sourceTree = "<group>";
+		};
+		3A50FE54221DAD210025C8E0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3A50FE44221DAB400025C8E0 /* CharactersController.swift */,
+				3A50FE55221DAD460025C8E0 /* NavController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3A50FE57221DB1950025C8E0 /* Modeles */ = {
+			isa = PBXGroup;
+			children = (
+				3A50FE58221DB1A50025C8E0 /* APIHelper.swift */,
+				3A50FE5A221DB4140025C8E0 /* APIResult.swift */,
+				3A50FE5F221DBF2F0025C8E0 /* extensions.swift */,
+			);
+			path = Modeles;
+			sourceTree = "<group>";
+		};
+		3A50FE5C221DBE310025C8E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A50FE5D221DBE4B0025C8E0 /* PersoCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A50FE45221DAB400025C8E0 /* ViewController.swift in Sources */,
+				3A50FE59221DB1A50025C8E0 /* APIHelper.swift in Sources */,
+				3A50FE5B221DB4140025C8E0 /* APIResult.swift in Sources */,
+				3A50FE45221DAB400025C8E0 /* CharactersController.swift in Sources */,
+				3A50FE60221DBF2F0025C8E0 /* extensions.swift in Sources */,
 				3A50FE43221DAB400025C8E0 /* AppDelegate.swift in Sources */,
+				3A50FE56221DAD460025C8E0 /* NavController.swift in Sources */,
+				3A50FE5E221DBE4B0025C8E0 /* PersoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
