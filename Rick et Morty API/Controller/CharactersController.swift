@@ -73,15 +73,7 @@ extension CharactersController: UICollectionViewDelegate, UICollectionViewDataSo
        
     }
     
-    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        if indexPath.item == personnages.count - 1 {
-            print("Telecharger")
-            if pageSuivante != "" {
-                getPerso(string: pageSuivante)
-            }
 
-        }
-    }
     
 }
 

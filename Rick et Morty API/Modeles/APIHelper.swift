@@ -30,9 +30,8 @@ class APIHelper {
                     // Convertir notre JSON
                     do {
                         let reponseJSON = try JSONDecoder().decode(APIResult.self, from: data!)
-                        for perso in reponseJSON.results {
                             completion?(reponseJSON.info.next, reponseJSON.results, nil)
-                        }
+                        
                     } catch {
                         completion?(nil, nil, error.localizedDescription)
                     }
@@ -45,6 +44,5 @@ class APIHelper {
             completion?(nil, nil, "Url Invalide")
         }
     }
-    
-    
 }
+
