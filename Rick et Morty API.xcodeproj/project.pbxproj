@@ -17,6 +17,10 @@
 		3A50FE5B221DB4140025C8E0 /* APIResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FE5A221DB4140025C8E0 /* APIResult.swift */; };
 		3A50FE5E221DBE4B0025C8E0 /* PersoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FE5D221DBE4B0025C8E0 /* PersoCell.swift */; };
 		3A50FE60221DBF2F0025C8E0 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FE5F221DBF2F0025C8E0 /* extensions.swift */; };
+		3ACA84C6221F0832006BB5C7 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA84C5221F0832006BB5C7 /* DetailView.swift */; };
+		3ACA84C8221F0846006BB5C7 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ACA84C7221F0846006BB5C7 /* DetailView.xib */; };
+		3ACA84CA221FD6F7006BB5C7 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA84C9221FD6F7006BB5C7 /* SettingsController.swift */; };
+		3ACA84CC221FD903006BB5C7 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA84CB221FD903006BB5C7 /* UserDefaultsHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		3A50FE5A221DB4140025C8E0 /* APIResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResult.swift; sourceTree = "<group>"; };
 		3A50FE5D221DBE4B0025C8E0 /* PersoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersoCell.swift; sourceTree = "<group>"; };
 		3A50FE5F221DBF2F0025C8E0 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		3ACA84C5221F0832006BB5C7 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		3ACA84C7221F0846006BB5C7 /* DetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		3ACA84C9221FD6F7006BB5C7 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		3ACA84CB221FD903006BB5C7 /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 			children = (
 				3A50FE44221DAB400025C8E0 /* CharactersController.swift */,
 				3A50FE55221DAD460025C8E0 /* NavController.swift */,
+				3ACA84C9221FD6F7006BB5C7 /* SettingsController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -91,6 +100,7 @@
 				3A50FE58221DB1A50025C8E0 /* APIHelper.swift */,
 				3A50FE5A221DB4140025C8E0 /* APIResult.swift */,
 				3A50FE5F221DBF2F0025C8E0 /* extensions.swift */,
+				3ACA84CB221FD903006BB5C7 /* UserDefaultsHelper.swift */,
 			);
 			path = Modeles;
 			sourceTree = "<group>";
@@ -99,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				3A50FE5D221DBE4B0025C8E0 /* PersoCell.swift */,
+				3ACA84C5221F0832006BB5C7 /* DetailView.swift */,
+				3ACA84C7221F0846006BB5C7 /* DetailView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A50FE4D221DAB420025C8E0 /* LaunchScreen.storyboard in Resources */,
+				3ACA84C8221F0846006BB5C7 /* DetailView.xib in Resources */,
 				3A50FE4A221DAB420025C8E0 /* Assets.xcassets in Resources */,
 				3A50FE48221DAB400025C8E0 /* Main.storyboard in Resources */,
 			);
@@ -174,7 +187,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ACA84CC221FD903006BB5C7 /* UserDefaultsHelper.swift in Sources */,
+				3ACA84CA221FD6F7006BB5C7 /* SettingsController.swift in Sources */,
 				3A50FE59221DB1A50025C8E0 /* APIHelper.swift in Sources */,
+				3ACA84C6221F0832006BB5C7 /* DetailView.swift in Sources */,
 				3A50FE5B221DB4140025C8E0 /* APIResult.swift in Sources */,
 				3A50FE45221DAB400025C8E0 /* CharactersController.swift in Sources */,
 				3A50FE60221DBF2F0025C8E0 /* extensions.swift in Sources */,
